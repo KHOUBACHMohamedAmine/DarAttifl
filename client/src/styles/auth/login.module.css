@@ -1,0 +1,44 @@
+
+.body_login{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 30px 13px;  
+  background: linear-gradient(120deg,#F5F4F9, #ececec);
+  min-height: 100vh;
+}
+
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+    padding:16px 0px;
+}
+.center{
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+  height: -webkit-fill-available;
+}
+.center h1{
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid silver;
+}
+.center form{
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.signup_link{
+  margin-top: 30px;
+  margin-bottom: 18px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.signup_link a:hover{
+  text-decoration: underline;
+}
